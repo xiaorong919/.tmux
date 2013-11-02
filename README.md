@@ -27,7 +27,7 @@ why you now have to `touch ~/.tmux.conf.local`.
 ### Accessing the Mac OSX clipboard from within tmux sessions
 
 [Chris Johnsen created the `reattach-to-user-namespace`
-utility](https://github.com/ChrisJohnsen) that makes
+utility](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard) that makes
 `pbcopy` and `pbpaste` work again within `tmux`.
 
 If available, `reattach-to-user-namespace` will be automatically used by this
